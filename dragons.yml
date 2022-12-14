@@ -1,0 +1,110 @@
+general:
+  number_cards: 24
+  auto_tagger: True
+files:
+  cards_pile: dragon_pile.txt
+  scryfall_data: scryfall_dragons.json
+  missing_cards: missing_dragons.txt
+limitations:
+  max_unpop: 5       # Maximum number of unpopular cards (unpopular means belonging to the 25% least popular cards of the pile, according to EDHrec).
+  max_illegal: 1     # Maximum number of illegal cards (either banned or not legal by default, note that those are also considered unpopular).
+  max_sink: 5        # Maximum number of cards with the "mana_sink" tag.
+  max_bad_synergy: 3 # Maximum number of cards to which The Ur Dragon's reduction does not apply.
+  mana_curve:
+    4: 5
+    5: 8
+    6: 7
+    7: 4
+  hard_costs:
+    WW, UU, BB: 3
+    MMM, MMNNOO: 3
+  limited_tags:
+    bad_synergy: 3
+    mana_sink: 5
+secondary_tags:
+  attack: exert, dethrone
+  bad_synergy: -flying, irreducible, saga, echo, power_0, power_1, power_2, power_3
+  counters: riot, amplify, bloodthirst, monstrosity, dethrone
+  other_counters: bolster
+  draw: monarch, looter, wheel
+  graveyard: threshold, delve
+  random: die_roll
+  ramp: tokens_treasure
+  self_defense: hexproof, ward, protection, uncounterable
+  self_discard: looter, wheel
+  self_reanimate: eternalize
+  soft_removal: burn, goad, freeze, bounce
+  tribal: cast_dragon, recast_dragon, reanimate_dragon
+themes:
+  Balanced:
+    description: "As everything should be."
+    tags:
+      removal: 5
+      draw: 5
+      ramp: 5
+      sweeper: 1
+  Friends'n'Food:
+    description: "Create a bunch of creature tokens and make use of them, somehow."
+    ban: sweeper
+    tags:
+      mass pump, other_ETB, sacrifice_major: 7
+      tokens_creature: 18
+      draw: 3
+      tutor: 2
+  Gotta Go Fast:
+    description: "There's no time to be summoning sick."
+    tags:
+      haste, flash, riot, dash: 25
+    limitations:
+      limited_tags:
+        mana_sink: 3
+      mana_curve:
+        4: 6
+        5: 9
+        6: 5
+        7: 4
+  Colours of Magic:
+    description: "Still missing purple, though."
+    tags:
+      colours: 10
+      multicoloured: 15
+  As Luck Would Have It:
+    description: "Believe in the heart of the cards."
+    tags:
+      random: 25
+  Burn:
+    description: "Cooked to perfection."
+    tags:
+      synergy_burn: 5
+      burn: 15
+      faceburn: 5
+  Can't Touch This:
+    description: "Remove me if you can."
+    tags:
+      self_defense: 15
+      defense: 10
+  Dragon Cemetery:
+    description: "Death is the beginning"
+    tags:
+      sacrifice_major, sacrifice_minor: 5
+      death, reanimate, self_reanimate: 15
+  Draconic Domination:
+    description: "Tribal Dragon"
+    tags:
+      tribal: 25
+      tokens_dragon: 25
+      draw, ramp, removal: 25
+  Dragons of Tarkir:
+    limitations:
+      mana_curve:
+        4: 4
+        5: 8
+        6: 7
+        7: 5
+    description: "Dragons from the Tarkir block only"
+    tags:
+      set_dtk, set_frf: 25
+  Dragons from Dungeons:
+    description: "Rolling dice and smashing faces."
+    tags:
+      set_afr, set_afc, set_clb: 25

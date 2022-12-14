@@ -1,0 +1,184 @@
+1 Adult Gold Dragon *F*
+1 Akoum Hellkite *F*
+1 Amareth, the Lustrous *E* #Draw #Random
+1 Ancestor Dragon #Lifegain
+1 Ao, the Dawn Sky (NEO) *F* #Cheater #Ignore_Counters #Mass_Pump #Random
+1 Archwing Dragon *F* #Self_Bounce
+1 Astral Dragon #Clone
+1 Atarka, World Render *F* #Grant_Double_Strike #Tribal
+1 Atsushi, the Blazing Sky #Draw
+1 Avenging Hunter *F*
+1 Backdraft Hellkite #Recursion #Spellslinger
+1 Balefire Dragon #Sweeper
+1 Beledros Witherbloom #Lifegain #Lifeloss #Ramp
+1 Black Dragon #Removal
+1 Bladewing the Risen *F* #Ignore_reanimate_permanent #Mass_Pump #Tribal
+1 Bladewing, Deathless Tyrant #Graveyard
+1 Bogardan Hellkite *F*
+1 Boltwing Marauder *F* #Pump
+1 Bone Dragon *F*
+1 Boneyard Scourge #Tribal
+1 Brainstealer Dragon #Theft
+1 Broodmate Dragon *F*
+1 Chaos Dragon #Random
+1 Chromium, the Mutable #Self_Discard
+1 Crosis, the Purger *F* #Discard #Random
+1 Crystal Dragon / Rob the Hoard *F*
+1 Darigaaz Reincarnated (DOM) *F* #Self_Defense
+1 Darigaaz, the Igniter #Random
+1 Deathbringer Regent *F* #Sweeper
+1 Demanding Dragon *F* #Removal
+1 Destructor Dragon *F* #Removal
+1 Draco
+1 Dragon Broodmother *F* #Sacrifice_Minor
+1 Dragon Mage #Discard
+1 Dragonborn Champion #Synergy_Burn
+1 Dragonlord Atarka
+1 Dragonlord Dromoka #Defense
+1 Dragonlord Kolaghan #Except_Gotta Go Fast #Grant_Haste
+1 Dragonlord Ojutai #Draw #Self_Defense
+1 Dragonlord Silumgar *E* #Removal #Theft
+1 Drakuseth, Maw of Flames *F*
+1 Dread Linnorm / Scale Deflection *F* #Grant_Hexproof
+1 Dromar, the Banisher #Bounce #Removal
+1 Dromoka, the Eternal *F* #Tribal
+1 Earthquake Dragon *F* #MV_matters
+1 Ebon Dragon #Discard
+1 Ebondeath, Dracolich (AFR) #Death
+1 Emerald Dragon / Dissonant Wave *F* #Removal
+1 Enduring Scalelord *F* #Only_Draconic Growth
+1 Eternal Dragon #Land Search
+1 Firkraag, Cunning Instigator *F* #Tribal
+1 Flameblast Dragon *F*
+1 Fledgling Dragon *F*
+1 Foe-Razer Regent #Ignore_other_Counters #Removal
+1 Furnace Dragon #Removal #Synergy_Artifacts
+1 Furyborn Hellkite *F* #Synergy_Burn
+1 Galazeth Prismari #Spellslinger
+1 Ganax, Astral Hunter *F* #Tribal
+1 Glorybringer *F*
+1 Goldspan Dragon #Self_Defense
+1 Green Dragon #Only_Burn Baby Burn
+1 Harbinger of the Hunt *F* #Sweeper
+1 Hellkite Charger *F*
+1 Hellkite Courser #Cheater
+1 Hellkite Overlord *F* #Self_Defense
+1 Hellkite Tyrant #Removal #Synergy_Artifacts #Theft
+1 Hoard-Smelter Dragon *F* #Removal
+1 Hoarding Dragon (IMA) *F* #Synergy_Artifacts
+1 Hunted Dragon *F* #Ignore_ETB #Ignore_Tokens_*
+1 Hypersonic Dragon *F* #Spellslinger
+1 Icefall Regent *F* #Freeze #Removal #Self_Defense
+1 Icingdeath, Frost Tyrant #Pump
+1 Immersturm Predator *F* #Attack #Removal #Sacrifice_Minor #Self_Defense
+1 Inferno of the Star Mounts #Ignore_Burn
+1 Intet, the Dreamer #Cheater #Random
+1 Iymrith, Desert Doom #Self_Defense
+1 Jugan Defends the Temple / Remnant of the Rising Star #Only_Draconic Growth #Only_Friends'n'Food #Ramp
+1 Jugan, the Rising Star *F* #Ignore_Counters #Mass_Pump
+1 Junji, the Midnight Sky #Discard
+1 Juvenile Mist Dragon *F* #Stun
+1 Kairi, the Swirling Sky (NEO) *F* #Bounce #Removal #Self_Mill
+1 Karrthus, Tyrant of Jund *F* #Except_Gotta Go Fast #Grant_Haste #Theft #Tribal
+1 Keiga, the Tide Star #Removal #Theft
+1 Kharis & The Beholder #Mass_Pump #Random #Tokens_creature #Tokens_human
+1 Kilnmouth Dragon *F* #Tribal
+1 Klauth, Unrivaled Ancient *F* #Ramp
+1 Knollspine Dragon #Synergy_Burn
+1 Kolaghan, the Storm's Fury *F* #Mass_Pump #Tribal
+1 Korvold, Fae-Cursed King *F* #Only_Dragon Cemetery #Only_Friends'n'Food #Sacrifice_Major
+1 Kura, the Boundless Sky (NEO) #Land Search
+1 Kyodai, Soul of Kamigawa (NEO) *F* #Defense
+1 Lathliss, Dragon Queen *F* #Mass_Pump #Tribal
+1 Leyline Tyrant *F*
+1 Lightning Dragon *F*
+1 Lozhan, Dragons' Legacy #MV_matters #Tribal
+1 Malfegor *F* #Except_Control #Self_Discard #Sweeper
+1 Mana-Charged Dragon
+1 Manaform Hellkite
+1 Miirym, Sentinel Wyrm #Clone #Tribal
+1 Moonveil Dragon *F* #Mass_Pump
+1 Moonveil Regent #Colours #Self_Discard
+1 Mordant Dragon *F*
+1 Murktide Regent #Spellslinger
+1 Necromaster Dragon *F* #Mill
+1 Nesting Dragon
+1 Nicol Bolas *F* #Discard
+1 Nicol Bolas, the Ravager / Nicol Bolas, the Arisen *F* #Discard
+1 Nira, Hellkite Duelist #Defense
+1 Niv-Mizzet Reborn *F* #Colours #Draw #Random
+1 Niv-Mizzet, Dracogenius *F*
+1 Niv-Mizzet, Parun *F* #Spellslinger
+1 Niv-Mizzet, the Firemind *F*
+1 Numot, the Devastator #Removal
+1 O-Kagachi, Vengeful Kami *F* #Removal
+1 Obsidian Charmaw #Removal
+1 Ojutai, Soul of Winter *F* #Removal #Stun #Tribal
+1 Old Gnawbone (AFR)
+1 Opportunistic Dragon *F* #Removal
+1 Oros, the Avenger *F* #Colours #Sweeper
+1 Palladia-Mors, the Ruiner #Self_Defense
+1 Phantasmal Dragon
+1 Piru, the Volatile *F* #Sweeper
+1 Pristine Skywise *F* #Self_Defense
+1 Prossh, Skyraider of Kher *E* #Sacrifice_Minor
+1 Ramos, Dragon Engine *E* #Colours #Ramp
+1 Rapacious Dragon *F*
+1 Red Dragon (AFR) *F*
+1 Renari, Merchant of Marvels *E* #Synergy_Artifacts #Tribal
+1 Rimescale Dragon *F* #Freeze #Ignore_other_Counters #Removal
+1 Rith, Liberated Primeval *F* #Grant_Ward #Synergy_Burn #Tribal
+1 Rith, the Awakener *F* #Colours
+1 Runehorn Hellkite #Discard #Graveyard
+1 Ruthless Deathfang *F* #Only_Dragon Cemetery #Removal
+1 Ryusei, the Falling Star *F* #Sweeper
+1 Sapphire Dragon / Psionic Pulse *F* #Removal
+1 Savage Ventmaw *F* #Ramp
+1 Scaled Nurturer *F* #Lifegain #Ramp
+1 Scalelord Reckoner #Defense #Tribal
+1 Scion of Draco *F* #Colours
+1 Scion of the Ur-Dragon #Self_Mill #Tribal #Tutor
+1 Scourge of Kher Ridges *F* #Sweeper
+1 Scourge of the Throne *F*
+1 Scourge of Valkas *F* #Tribal
+1 Shadrix Silverquill #Mass_Pump
+1 Shivan Dragon
+1 Siege Dragon *F* #Ignore_ETB
+1 Silumgar, the Drifting Death *F* #Sweeper #Tribal
+1 Skarrgan Hellkite *F*
+1 Skyline Despot
+1 Spellbound Dragon *F* #MV_matters
+1 Sprite Dragon
+1 Steel Hellkite *F* #Removal #Saboteur
+1 Stet, Draconic Proofreader #Graveyard
+1 Stirring Bard *F* #Except_Gotta Go Fast #Grant_Haste #Grant_Menace
+1 Stormbreath Dragon *F*
+1 Sunscorch Regent #Lifegain
+1 Tanazir Quandrix *F* #Mass_Pump #Only_Draconic Growth #Other_counters
+1 Teneb, the Harvester
+1 Territorial Hellkite #Random
+1 Terror of Mount Velus #Grant_Double_Strike
+1 Terror of the Peaks *F* #Self_Defense
+1 The Kami War / O-Kagachi Made Manifest #Bounce #Discard #Recursion #Removal
+1 Thrakkus the Butcher *F* #Mass_Pump #Tribal
+1 Thunder Dragon #Sweeper
+1 Thunderbreak Regent *F* #Defense #Tribal
+1 Thundermaw Hellkite *F*
+1 Tiamat (AFR) #Tribal #Tutor
+1 Timeless Dragon *F* #Land Search
+1 Treva, the Renewer *F* #Colours #Lifegain
+1 Two-Headed Dragon
+1 Two-Headed Hellkite
+1 Tyrant of Valakut *F*
+1 Tyrant's Familiar
+1 Utvara Hellkite *F* #Tribal
+1 Vaevictis Asmadi, the Dire #Cheater #Except_Control #Removal #Sacrifice_Major
+1 Velomachus Lorehold #Random #Spellslinger
+1 Vengeful Ancestor
+1 Verix Bladewing *F*
+1 Vorosh, the Hunter *F*
+1 Warmonger Hellkite #Chaos #Mass_Pump
+1 Wasitora, Nekoru Queen #Removal
+1 Wrathful Red Dragon #Tribal
+1 Yosei, the Morning Star *F* #Removal #Stun
+1 Ziatora, the Incinerator #Sacrifice_Major
