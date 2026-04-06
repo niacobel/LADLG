@@ -1,184 +1,264 @@
-1 Adult Gold Dragon *F*
-1 Akoum Hellkite *F*
-1 Amareth, the Lustrous *E* #Draw #Random
-1 Ancestor Dragon #Lifegain
-1 Ao, the Dawn Sky (NEO) *F* #Cheater #Ignore_Counters #Mass_Pump #Random
-1 Archwing Dragon *F* #Self_Bounce
-1 Astral Dragon #Clone
-1 Atarka, World Render *F* #Grant_Double_Strike #Tribal
-1 Atsushi, the Blazing Sky #Draw
-1 Avenging Hunter *F*
-1 Backdraft Hellkite #Recursion #Spellslinger
-1 Balefire Dragon #Sweeper
-1 Beledros Witherbloom #Lifegain #Lifeloss #Ramp
-1 Black Dragon #Removal
-1 Bladewing the Risen *F* #Ignore_reanimate_permanent #Mass_Pump #Tribal
-1 Bladewing, Deathless Tyrant #Graveyard
-1 Bogardan Hellkite *F*
-1 Boltwing Marauder *F* #Pump
-1 Bone Dragon *F*
-1 Boneyard Scourge #Tribal
-1 Brainstealer Dragon #Theft
-1 Broodmate Dragon *F*
-1 Chaos Dragon #Random
-1 Chromium, the Mutable #Self_Discard
-1 Crosis, the Purger *F* #Discard #Random
-1 Crystal Dragon / Rob the Hoard *F*
-1 Darigaaz Reincarnated (DOM) *F* #Self_Defense
-1 Darigaaz, the Igniter #Random
-1 Deathbringer Regent *F* #Sweeper
-1 Demanding Dragon *F* #Removal
-1 Destructor Dragon *F* #Removal
-1 Draco
-1 Dragon Broodmother *F* #Sacrifice_Minor
-1 Dragon Mage #Discard
-1 Dragonborn Champion #Synergy_Burn
-1 Dragonlord Atarka
-1 Dragonlord Dromoka #Defense
-1 Dragonlord Kolaghan #Except_Gotta Go Fast #Grant_Haste
-1 Dragonlord Ojutai #Draw #Self_Defense
-1 Dragonlord Silumgar *E* #Removal #Theft
-1 Drakuseth, Maw of Flames *F*
-1 Dread Linnorm / Scale Deflection *F* #Grant_Hexproof
-1 Dromar, the Banisher #Bounce #Removal
-1 Dromoka, the Eternal *F* #Tribal
-1 Earthquake Dragon *F* #MV_matters
-1 Ebon Dragon #Discard
-1 Ebondeath, Dracolich (AFR) #Death
-1 Emerald Dragon / Dissonant Wave *F* #Removal
-1 Enduring Scalelord *F* #Only_Draconic Growth
-1 Eternal Dragon #Land Search
-1 Firkraag, Cunning Instigator *F* #Tribal
-1 Flameblast Dragon *F*
-1 Fledgling Dragon *F*
-1 Foe-Razer Regent #Ignore_other_Counters #Removal
-1 Furnace Dragon #Removal #Synergy_Artifacts
-1 Furyborn Hellkite *F* #Synergy_Burn
-1 Galazeth Prismari #Spellslinger
-1 Ganax, Astral Hunter *F* #Tribal
-1 Glorybringer *F*
-1 Goldspan Dragon #Self_Defense
-1 Green Dragon #Only_Burn Baby Burn
-1 Harbinger of the Hunt *F* #Sweeper
-1 Hellkite Charger *F*
-1 Hellkite Courser #Cheater
-1 Hellkite Overlord *F* #Self_Defense
-1 Hellkite Tyrant #Removal #Synergy_Artifacts #Theft
-1 Hoard-Smelter Dragon *F* #Removal
-1 Hoarding Dragon (IMA) *F* #Synergy_Artifacts
-1 Hunted Dragon *F* #Ignore_ETB #Ignore_Tokens_*
-1 Hypersonic Dragon *F* #Spellslinger
-1 Icefall Regent *F* #Freeze #Removal #Self_Defense
-1 Icingdeath, Frost Tyrant #Pump
-1 Immersturm Predator *F* #Attack #Removal #Sacrifice_Minor #Self_Defense
-1 Inferno of the Star Mounts #Ignore_Burn
-1 Intet, the Dreamer #Cheater #Random
-1 Iymrith, Desert Doom #Self_Defense
-1 Jugan Defends the Temple / Remnant of the Rising Star #Only_Draconic Growth #Only_Friends'n'Food #Ramp
-1 Jugan, the Rising Star *F* #Ignore_Counters #Mass_Pump
-1 Junji, the Midnight Sky #Discard
-1 Juvenile Mist Dragon *F* #Stun
-1 Kairi, the Swirling Sky (NEO) *F* #Bounce #Removal #Self_Mill
-1 Karrthus, Tyrant of Jund *F* #Except_Gotta Go Fast #Grant_Haste #Theft #Tribal
-1 Keiga, the Tide Star #Removal #Theft
-1 Kharis & The Beholder #Mass_Pump #Random #Tokens_creature #Tokens_human
-1 Kilnmouth Dragon *F* #Tribal
-1 Klauth, Unrivaled Ancient *F* #Ramp
-1 Knollspine Dragon #Synergy_Burn
-1 Kolaghan, the Storm's Fury *F* #Mass_Pump #Tribal
-1 Korvold, Fae-Cursed King *F* #Only_Dragon Cemetery #Only_Friends'n'Food #Sacrifice_Major
-1 Kura, the Boundless Sky (NEO) #Land Search
-1 Kyodai, Soul of Kamigawa (NEO) *F* #Defense
-1 Lathliss, Dragon Queen *F* #Mass_Pump #Tribal
-1 Leyline Tyrant *F*
-1 Lightning Dragon *F*
-1 Lozhan, Dragons' Legacy #MV_matters #Tribal
-1 Malfegor *F* #Except_Control #Self_Discard #Sweeper
-1 Mana-Charged Dragon
-1 Manaform Hellkite
-1 Miirym, Sentinel Wyrm #Clone #Tribal
-1 Moonveil Dragon *F* #Mass_Pump
-1 Moonveil Regent #Colours #Self_Discard
-1 Mordant Dragon *F*
-1 Murktide Regent #Spellslinger
-1 Necromaster Dragon *F* #Mill
-1 Nesting Dragon
-1 Nicol Bolas *F* #Discard
-1 Nicol Bolas, the Ravager / Nicol Bolas, the Arisen *F* #Discard
-1 Nira, Hellkite Duelist #Defense
-1 Niv-Mizzet Reborn *F* #Colours #Draw #Random
-1 Niv-Mizzet, Dracogenius *F*
-1 Niv-Mizzet, Parun *F* #Spellslinger
-1 Niv-Mizzet, the Firemind *F*
-1 Numot, the Devastator #Removal
-1 O-Kagachi, Vengeful Kami *F* #Removal
-1 Obsidian Charmaw #Removal
-1 Ojutai, Soul of Winter *F* #Removal #Stun #Tribal
-1 Old Gnawbone (AFR)
-1 Opportunistic Dragon *F* #Removal
-1 Oros, the Avenger *F* #Colours #Sweeper
-1 Palladia-Mors, the Ruiner #Self_Defense
-1 Phantasmal Dragon
-1 Piru, the Volatile *F* #Sweeper
-1 Pristine Skywise *F* #Self_Defense
-1 Prossh, Skyraider of Kher *E* #Sacrifice_Minor
-1 Ramos, Dragon Engine *E* #Colours #Ramp
-1 Rapacious Dragon *F*
-1 Red Dragon (AFR) *F*
-1 Renari, Merchant of Marvels *E* #Synergy_Artifacts #Tribal
-1 Rimescale Dragon *F* #Freeze #Ignore_other_Counters #Removal
-1 Rith, Liberated Primeval *F* #Grant_Ward #Synergy_Burn #Tribal
-1 Rith, the Awakener *F* #Colours
-1 Runehorn Hellkite #Discard #Graveyard
-1 Ruthless Deathfang *F* #Only_Dragon Cemetery #Removal
-1 Ryusei, the Falling Star *F* #Sweeper
-1 Sapphire Dragon / Psionic Pulse *F* #Removal
-1 Savage Ventmaw *F* #Ramp
-1 Scaled Nurturer *F* #Lifegain #Ramp
-1 Scalelord Reckoner #Defense #Tribal
-1 Scion of Draco *F* #Colours
-1 Scion of the Ur-Dragon #Self_Mill #Tribal #Tutor
-1 Scourge of Kher Ridges *F* #Sweeper
-1 Scourge of the Throne *F*
-1 Scourge of Valkas *F* #Tribal
-1 Shadrix Silverquill #Mass_Pump
-1 Shivan Dragon
-1 Siege Dragon *F* #Ignore_ETB
-1 Silumgar, the Drifting Death *F* #Sweeper #Tribal
-1 Skarrgan Hellkite *F*
-1 Skyline Despot
-1 Spellbound Dragon *F* #MV_matters
-1 Sprite Dragon
-1 Steel Hellkite *F* #Removal #Saboteur
-1 Stet, Draconic Proofreader #Graveyard
-1 Stirring Bard *F* #Except_Gotta Go Fast #Grant_Haste #Grant_Menace
-1 Stormbreath Dragon *F*
-1 Sunscorch Regent #Lifegain
-1 Tanazir Quandrix *F* #Mass_Pump #Only_Draconic Growth #Other_counters
-1 Teneb, the Harvester
-1 Territorial Hellkite #Random
-1 Terror of Mount Velus #Grant_Double_Strike
-1 Terror of the Peaks *F* #Self_Defense
-1 The Kami War / O-Kagachi Made Manifest #Bounce #Discard #Recursion #Removal
-1 Thrakkus the Butcher *F* #Mass_Pump #Tribal
-1 Thunder Dragon #Sweeper
-1 Thunderbreak Regent *F* #Defense #Tribal
-1 Thundermaw Hellkite *F*
-1 Tiamat (AFR) #Tribal #Tutor
-1 Timeless Dragon *F* #Land Search
-1 Treva, the Renewer *F* #Colours #Lifegain
-1 Two-Headed Dragon
-1 Two-Headed Hellkite
-1 Tyrant of Valakut *F*
-1 Tyrant's Familiar
-1 Utvara Hellkite *F* #Tribal
-1 Vaevictis Asmadi, the Dire #Cheater #Except_Control #Removal #Sacrifice_Major
-1 Velomachus Lorehold #Random #Spellslinger
-1 Vengeful Ancestor
-1 Verix Bladewing *F*
-1 Vorosh, the Hunter *F*
-1 Warmonger Hellkite #Chaos #Mass_Pump
-1 Wasitora, Nekoru Queen #Removal
-1 Wrathful Red Dragon #Tribal
-1 Yosei, the Morning Star *F* #Removal #Stun
-1 Ziatora, the Incinerator #Sacrifice_Major
+1 Adult Gold Dragon (PAFR) 216s *F* #ZZZ-Auto_tagged
+1 Akoum Hellkite (BFZ) 139 *F* #ZZZ-Auto_tagged
+1 Amareth, the Lustrous (CMR) 586 *E* #Draw #Random
+1 Ancestor Dragon (GS1) 12 #Lifegain
+1 Ancient Brass Dragon (CLB) 389 #ZZZ-Auto_tagged
+1 Ancient Bronze Dragon (CLB) 406 #ZZZ-Auto_tagged
+1 Ancient Copper Dragon (CLB) 396 *F* #ZZZ-Auto_tagged
+1 Ancient Gold Dragon (CLB) 376 #ZZZ-Auto_tagged
+1 Ancient Silver Dragon (CLB) 382 #ZZZ-Auto_tagged
+1 Ao, the Dawn Sky (NEO) 406 *F* #Cheater #Ignore_Counters #Mass_Pump #Random
+1 Archwing Dragon (AVR) 126 *F* #Self_Bounce
+1 Astral Dragon (CLB) 613 #Clone
+1 Atarka, World Render (SCD) 1 *E* #Grant_Double_Strike
+1 Atsushi, the Blazing Sky (NEO) 410 #Draw
+1 Avenging Hunter (CLB) 215 *F* #ZZZ-Auto_tagged
+1 Backdraft Hellkite (2X2) 449 *E* #Recursion #Spellslinger
+1 Balefire Dragon (CMM) 697 #Sweeper
+1 Beledros Witherbloom (STX) 282 #Lifegain #Lifeloss #Ramp
+1 Betor, Ancestor's Voice (TDC) 1 *F* #ZZZ-Auto_tagged
+1 Betor, Kin to All (TDM) 353 *F* #ZZZ-Auto_tagged
+1 Black Dragon (AFR) 291 #Removal
+1 Bladewing the Risen (IMA) 193 *F* #Ignore_reanimate_permanent #Mass_Pump
+1 Bladewing, Deathless Tyrant (DMC) 85 #Graveyard
+1 Blast-Furnace Hellkite (BRC) 12 #Synergy_Artifacts
+1 Bloomvine Regent / Claim Territory (TDM) 381 *F*
+1 Bogardan Hellkite (SLC) 2006 #ZZZ-Auto_tagged
+1 Boltwing Marauder (PDTK) 214 *F* #Pump
+1 Bone Devourer (TDC) 66 #ZZZ-Auto_tagged
+1 Bone Dragon (M19) 88 *F* #ZZZ-Auto_tagged
+1 Bonehoard Dracosaur (LCI) 321 #Draw #Random
+1 Boneyard Scourge (C17) 15 #ZZZ-Auto_tagged
+1 Brainstealer Dragon (CLB) 621 #Theft
+1 Broodcaller Scourge (TDC) 84 #Cheater
+1 Broodmate Dragon (PALA) A3 *F* #ZZZ-Auto_tagged
+1 Broodmate Tyrant (M3C) 71 #ZZZ-Auto_tagged
+1 Caldera Pyremaw (TDC) 73 #ZZZ-Auto_tagged
+1 Canopy Gargantuan (TDC) 85 #ZZZ-Auto_tagged
+1 Capricious Hellraiser (ONE) 444 *F* #Cheater #Random #Recursion
+1 Cavern-Hoard Dragon (LTC) 433 *F* #ZZZ-Auto_tagged
+1 Chaos Dragon (AFC) 299 #ZZZ-Auto_tagged
+1 Chiss-Goria, Forge Tyrant (ONC) 35 #Only_Artificer
+1 Chromium, the Mutable (M19) 214 *F* #Self_Discard
+1 Colossal Grave-Reaver (TDC) 90 #Cheater #Self_Mill
+1 Crosis, the Purger (PD3) 5 *F* #Discard #Random
+1 Crystal Dragon / Rob the Hoard (CLB) 13 *F* #ZZZ-Auto_tagged
+1 Darigaaz Reincarnated (DOM) 193 *F* #Self_Defense
+1 Darigaaz, the Igniter (INV) 243 #Random
+1 Deathbringer Regent (PDTK) 96 *F* #Sweeper
+1 Decadent Dragon / Expensive Taste (WOE) 287 *F* #ZZZ-Auto_tagged
+1 Deceptive Frostkite (TDC) 59 #Clone
+1 Demanding Dragon (M19) 135 *F* #Removal
+1 Destructor Dragon (FRF) 127 *F* #Removal
+1 Disruptive Stormbrood / Petty Revenge (TDM) 310 *F* #Removal
+1 Diviner of Mist (TDC) 60 #Self_Mill
+1 Draco (PLST) PLS-131 #Domain
+1 Dragon Broodmother (PARB) 53 *F* #Sacrifice_Minor
+1 Dragon Mage (SCG) 87 #Discard
+1 Dragonborn Champion (AFC) 314 #Synergy_Burn
+1 Dragonhawk, Fate's Tempest (BLB) 291 #Draw #Tribal
+1 Dragonlord Atarka (DTK) 216 #ZZZ-Auto_tagged
+1 Dragonlord Dromoka (2X2) 376 #Defense
+1 Dragonlord Kolaghan (SLD) 1269 *F* #Except_Gotta Go Fast #Grant_Haste
+1 Dragonlord Ojutai (SLC) 2015 #Draw #Self_Defense
+1 Dragonlord Silumgar (2X2) 488 *E* #Removal #Theft
+1 Drakuseth, Maw of Flames (M20) 136 *F* #ZZZ-Auto_tagged
+1 Dread Linnorm / Scale Deflection (CLB) 225 *F* #Grant_Hexproof
+1 Dromar, the Banisher (INV) 244 #Bounce #Removal
+1 Dromoka, the Eternal (CP3) 4 *F* #ZZZ-Auto_tagged
+1 Earthquake Dragon (CLB) 588 *F* #MV_matters
+1 Ebon Dragon (POR) 91 #Discard
+1 Ebondeath, Dracolich (AFR) 292 #Death
+1 Emerald Dragon / Dissonant Wave (CLB) 229 *F* #Removal
+1 Enduring Scalelord (DTK) 222 *F* #Only_Draconic Growth
+1 Eternal Dragon (WC04) gn12a #Land Search
+1 Fang, Roku's Companion (TLE) 115 *F* #Self_reanimate
+1 Firespitter Whelp (FDN) 197 *F* #ZZZ-Auto_tagged
+1 Firkraag, Cunning Instigator (CLB) 648 *F* #ZZZ-Auto_tagged
+1 Flameblast Dragon (ALA) 100 *F* #ZZZ-Auto_tagged
+1 Fledgling Dragon (JUD) 90 *F* #ZZZ-Auto_tagged
+1 Foe-Razer Regent (PTKDF) 187 #Ignore_other_counters #Removal
+1 Furnace Dragon (WC04) mb62sb #Removal #Synergy_Artifacts
+1 Furnace Hellkite (MH3) 121 *F* #Only_Artificer
+1 Furyborn Hellkite (M12) 135 *F* #Synergy_Burn
+1 Galazeth Prismari (STX) 281 #Spellslinger
+1 Ganax, Astral Hunter (CLB) 398 *F* #ZZZ-Auto_tagged
+1 Glorybringer (PAKH) 134 *F* #ZZZ-Auto_tagged
+1 Gluttonous Hellkite (M3C) 73 #Sacrifice_Major #Sweeper
+1 Goldlust Triad (TDC) 74 #ZZZ-Auto_tagged
+1 Goldspan Dragon (SLD) 1780 *F* #Self_Defense
+1 Green Dragon (AFR) 295 #Only_Burn Baby Burn
+1 Guardian Scalelord (MOC) 103 #ZZZ-Auto_tagged
+1 Hammerhead Tyrant (TDC) 61 #Removal
+1 Harbinger of the Hunt (PDTK) 223 *F* #Sweeper
+1 Hellkite Charger (ZEN) 131 *F* #ZZZ-Auto_tagged
+1 Hellkite Courser (CMR) 666 #Cheater
+1 Hellkite Overlord (DRB) 8 *F* #Self_Defense
+1 Hellkite Tyrant (RVR) 428 *F* #Removal #Synergy_Artifacts #Theft
+1 Herigast, Erupting Nullkite (MH3) 362 #Draw #Sacrifice_Minor
+1 Hidetsugu and Kairi (MOM) 309 *F* #Spellslinger
+1 Hoard-Smelter Dragon (SOM) 93 *F* #Removal
+1 Hoarding Broodlord (MOM) 360 #Tutor
+1 Hoarding Dragon (IMA) 134 *F* #Synergy_Artifacts #Tutor
+1 Hraesvelgr of the First Brood (FIC) 142 #ZZZ-Auto_tagged
+1 Hunted Dragon (RAV) 131 *F* #Ignore_ETB #Ignore_Tokens_*
+1 Hypersonic Dragon (PRTR) 170 *F* #Spellslinger
+1 Icefall Regent (DTK) 58 *F* #Removal #Self_Defense #Stun
+1 Icingdeath, Frost Tyrant (AFR) 287 #Pump
+1 Immersturm Predator (KHM) 367 *F* #Attack #Removal #Sacrifice_Minor #Self_Defense
+1 Incinerator of the Guilty (MKM) 381 *F* #Graveyard #Sweeper
+1 Inferno of the Star Mounts (AFR) 293 #Ignore_Burn
+1 Intet, the Dreamer (PLC) 158 #Cheater #Random
+1 Invasion of Tarkir / Defiant Thundermaw (MOM) 149 *F* #ZZZ-Auto_tagged
+1 Iymrith, Desert Doom (AFR) 290 #Self_Defense
+1 Jeskai Shrinekeeper (TDM) 311 *F* #Lifegain
+1 Jugan Defends the Temple / Remnant of the Rising Star (NEO) 359 #Only_Draconic Growth #Only_Friends'n'Food #Ramp
+1 Jugan, the Rising Star (IMA) 172 *F* #Ignore_Counters #Mass_Pump
+1 Junji, the Midnight Sky (NEO) 409 #Discard
+1 Juvenile Mist Dragon (CLB) 79 *F* #Stun
+1 Kairi, the Swirling Sky (NEO) 408 *F* #Bounce #Removal #Self_Mill #Spellslinger
+1 Karakyk Guardian (TDM) 312 *F* #Self_Defense
+1 Karrthus, Tyrant of Jund (2XM) 205 *F* #Except_Gotta Go Fast #Grant_Haste #Theft #Tribal
+1 Keiga, the Tide Star (IMA) 63 *F* #Removal #Theft
+1 Kharis & The Beholder (PH18) 1 #Mass_Pump #Random #Tokens_creature #Tokens_human
+1 Kilnmouth Dragon (LGN) 104 *F* #Tribal
+1 Klauth, Unrivaled Ancient (AFC) 50 *F* #Ramp
+1 Knollspine Dragon (SHM) 98 #Synergy_Burn
+1 Kokusho, the Evening Star (SLD) 1528 *F* #Lifegain
+1 Kolaghan, the Storm's Fury (FRF) 155 *F* #Mass_Pump
+1 Korvold, Fae-Cursed King (ELD) 329 *F* #Only_Dragon Cemetery #Only_Friends'n'Food #Sacrifice_Major
+1 Korvold, Gleeful Glutton (WOC) 38 *F* #Draw #Synergy_Sacrifice
+1 Kura, the Boundless Sky (NEO) 411 #Land Search
+1 Kyodai, Soul of Kamigawa (NEO) 407 *F* #Defense
+1 Lathliss, Dragon Queen (SLD) 1145 *F* #Mass_Pump
+1 Leyline Tyrant (ZNR) 348 *F* #ZZZ-Auto_tagged
+1 Lightning Dragon (PUSG) 202 *F* #ZZZ-Auto_tagged
+1 Lozhan, Dragons' Legacy (CLB) 539 *E* #MV_matters
+1 Magmatic Hellkite (TDM) 380 #Ignore_other_counters #Removal
+1 Malevolent Witchkite (WOE) 372 #Sacrifice_Major
+1 Malfegor (PCON) 117 *F* #Except_Control #Self_Discard #Sweeper
+1 Mana-Charged Dragon (CMA) 84 #ZZZ-Auto_tagged
+1 Manaform Hellkite (DBL) 437 #ZZZ-Auto_tagged
+1 Marang River Regent / Coil and Catch (TDM) 378 #Bounce #Removal
+1 Miirym, Sentinel Wyrm (CLB) 542 *E* #Clone
+1 Moonveil Dragon (DKA) 99 *F* #Mass_Pump
+1 Moonveil Regent (DBL) 149 #Colours #Self_Discard
+1 Mordant Dragon (WWK) 85 *F* #ZZZ-Auto_tagged
+1 Murktide Regent (MH2) 337 #Spellslinger
+1 Nalathni Dragon (PDRC) 1 #ZZZ-Auto_tagged
+1 Necromaster Dragon (PDTK) 226 *F* #Mill
+1 Neriv, Crackling Vanguard (TDC) 6 *F* #Draw
+1 Neriv, Heart of the Storm (TDM) 366 #Synergy_Haste
+1 Nesting Dragon (CMM) 546 *E* #ZZZ-Auto_tagged
+1 Nicol Bolas (TSB) 98 *F* #Discard
+1 Nicol Bolas, the Ravager / Nicol Bolas, the Arisen (PJ21) 9 *F* #Discard
+1 Nira, Hellkite Duelist (PHTR) 3 #Defense
+1 Niv-Mizzet Reborn (MUL) 53 *F* #Colours #Draw #Random
+1 Niv-Mizzet, Dracogenius (MM3) 175 *F* #ZZZ-Auto_tagged
+1 Niv-Mizzet, Guildpact (MKM) 368 *F* #Colours
+1 Niv-Mizzet, Parun (SLD) 1530 *F* #Spellslinger
+1 Niv-Mizzet, the Firemind (DDJ) 1 *F* #ZZZ-Auto_tagged
+1 Niv-Mizzet, Visionary (FDN) 350 #Only_Burn Baby Burn
+1 Numot, the Devastator (PLC) 160 #Removal
+1 O-Kagachi, Vengeful Kami (C17) 45 *F* #Removal
+1 Obsidian Charmaw (MH2) 353 #Removal
+1 Ojutai, Soul of Winter (FRF) 156 *F* #Removal #Stun
+1 Old Gnawbone (AFR) 296 #ZZZ-Auto_tagged
+1 Opportunistic Dragon (ELD) 364 *F* #Removal
+1 Oros, the Avenger (PPLC) 161 *F* #Colours #Sweeper
+1 Palladia-Mors, the Ruiner (M19) 219 *F* #Self_Defense
+1 Parapet Thrasher (TDC) 76 #Draw #Removal
+1 Phantasmal Dragon (PMEI) 2011-1 *F* #ZZZ-Auto_tagged
+1 Piru, the Volatile (MH2) 422 *E* #Sweeper
+1 Pristine Skywise (PDTK) 228 *F* #Self_Defense
+1 Prossh, Skyraider of Kher (CMR) 530 *E* #Sacrifice_Minor
+1 Protector of the Wastes (TDC) 54 #Removal
+1 Purging Stormbrood / Absorb Essence (TDM) 315 *F* #Defense #Ignore_ETB
+1 Ramos, Dragon Engine (BRR) 110 *F* #Colours #Ramp
+1 Ran and Shaw (TLA) 325 *F* #Graveyard
+1 Rapacious Dragon (2XM) 140 *F* #ZZZ-Auto_tagged
+1 Realm-Scorcher Hellkite (WOE) 145 *F* #ZZZ-Auto_tagged
+1 Red Dragon (AFR) 294 *F* #ZZZ-Auto_tagged
+1 Renari, Merchant of Marvels (CLB) 487 *E* #Synergy_Artifacts
+1 Rimescale Dragon (CSP) 95 *F* #Ignore_other_counters #Removal #Stun
+1 Rith, Liberated Primeval (DMU) 354 *F* #Grant_Ward #Synergy_Burn
+1 Rith, the Awakener (DRB) 12 *F* #Colours
+1 Runehorn Hellkite (C16) 20 #Discard #Graveyard
+1 Runescale Stormbrood / Chilling Screech (TDM) 316 #Removal
+1 Ruthless Deathfang (DTK) 229 *F* #Only_Dragon Cemetery #Removal
+1 Ryusei, the Falling Star (PCHK) 185 *F* #Sweeper
+1 Sagu Wildling / Roost Seek (TDM) 306 *F* #Lifegain
+1 Sapphire Dragon / Psionic Pulse (CLB) 94 *F* #Removal
+1 Savage Ventmaw (DTK) 231 *F* #Ramp
+1 Scaled Nurturer (CLB) 252 *F* #Lifegain #Ramp
+1 Scalelord Reckoner (MB2) 151 #Defense
+1 Scavenger Regent / Exude Toxin (TDM) 379 #Sweeper
+1 Scion of Draco (SLD) 2031 *F* #Colours #Domain
+1 Scion of the Ur-Dragon (SLD) 1531 *F* #Self_Mill #Tutor
+1 Scourge of Kher Ridges (FUT) 107 *F* #Sweeper
+1 Scourge of Valkas (IMA) 145 *F* #ZZZ-Auto_tagged
+1 Shadrix Silverquill (STX) 280 #Mass_Pump
+1 Shiko and Narset, Unified (TDC) 7 #ZZZ-Auto_tagged
+1 Shiko, Paragon of the Way (TDM) 370 #Recursion
+1 Shimmer Dragon (BRC) 95 #Only_Artificer
+1 Shivan Devastator (DMU) 410 *F* #ZZZ-Auto_tagged
+1 Shivan Dragon (3ED) 177 #ZZZ-Auto_tagged
+1 Siege Dragon (PM15) 162 *F* #Ignore_ETB
+1 Silumgar, the Drifting Death (FRF) 157 *F* #Sweeper
+1 Skarrgan Hellkite (RNA) 114 *F* #ZZZ-Auto_tagged
+1 Skithiryx, the Blight Dragon (MUL) 17 *F* #ZZZ-Auto_tagged
+1 Skyline Despot (SLD) 1529 *F* #ZZZ-Auto_tagged
+1 Spellbound Dragon (ARB) 90 *F* #MV_matters
+1 Spinerock Tyrant (ECL) 322 #ZZZ-Auto_tagged
+1 Sprite Dragon (IKO) 369 #ZZZ-Auto_tagged
+1 Stardrake (SLD) 1033 #ZZZ-Auto_tagged
+1 Steel Hellkite (PL24) 4 *F* #Removal #Saboteur
+1 Stet, Draconic Proofreader (UND) 57 #Graveyard
+1 Stirring Bard (CLB) 195 *F* #Except_Gotta Go Fast #Grant_Haste #Grant_Menace
+1 Stormbreath Dragon (THS) 143 *F* #ZZZ-Auto_tagged
+1 Stormscale Scion (TDM) 303 *F* #ZZZ-Auto_tagged
+1 Summon: Bahamut (FIN) 356 #Removal
+1 Sunscorch Regent (FIC) 255 *F* #Lifegain
+1 Tanazir Quandrix (STX) 284 *F* #Mass_Pump #Only_Draconic Growth #Other_counters
+1 Tek (INV) 313 #Domain
+1 Teneb, the Harvester (2X2) 543 *E* #ZZZ-Auto_tagged
+1 Territorial Aetherkite (DRC) 28 #Sweeper
+1 Territorial Hellkite (C17) 29 #Random
+1 Terror of Mount Velus (THB) 295 #Grant_Double_Strike
+1 Terror of the Peaks (M21) 164 *F* #Self_Defense
+1 Teval, the Balanced Scale (TDC) 8 *F* #Ramp #Self_Mill
+1 The Kami War / O-Kagachi Made Manifest (NEO) 362 #Bounce #Discard #Recursion #Removal
+1 Themberchaud (SLD) 728 *F* #Sweeper
+1 Thrakkus the Butcher (CLB) 440 *F* #Mass_Pump
+1 Thunder Dragon (S99) 119 #Sweeper
+1 Thunderbreak Regent (PDTK) 162 *F* #Defense
+1 Thundermane Dragon (TDC) 78 #Grant_Haste #Tribal
+1 Thundermaw Hellkite (IMA) 149 *F* #ZZZ-Auto_tagged
+1 Tiamat (AFR) 298 #Tutor
+1 Timeless Dragon (MH2) 388 *F* #Land Search
+1 Transcendent Dragon (TDC) 62 #Removal
+1 Treva, the Renewer (PPRO) 2009 *F* #Colours #Lifegain
+1 Twinflame Tyrant (FDN) 427 *F* #Synergy_Burn
+1 Twinmaw Stormbrood / Charring Bite (TDM) 320 *F* #Lifegain
+1 Two-Headed Dragon (8ED) 229 #ZZZ-Auto_tagged
+1 Two-Headed Hellkite (DMC) 90 #ZZZ-Auto_tagged
+1 Tyrant of Kher Ridges (BRO) 341 *F* #ZZZ-Auto_tagged
+1 Tyrant of Valakut (POGW) 119 *F* #ZZZ-Auto_tagged
+1 Tyrant's Familiar (C14) 39 #ZZZ-Auto_tagged
+1 Ureni of the Unwritten (TDC) 9 *F* #Cheater
+1 Ureni, the Song Unending (TDM) 374 #ZZZ-Auto_tagged
+1 Utvara Hellkite (SLD) 1273 *F* #ZZZ-Auto_tagged
+1 Vaevictis Asmadi, the Dire (M19) 225 #Cheater #Except_Control #Removal #Sacrifice_Major
+1 Velomachus Lorehold (STX) 283 #Cheater #Random #Spellslinger
+1 Velukan Dragon (MB2) 145 *F* #ZZZ-Auto_tagged
+1 Vengeful Ancestor (AFC) 304 #ZZZ-Auto_tagged
+1 Verix Bladewing (DOM) 149 *F* #ZZZ-Auto_tagged
+1 Vorosh, the Hunter (CM2) 3 *F* #ZZZ-Auto_tagged
+1 Warmonger Hellkite (C14) 41 #Chaos #Mass_Pump
+1 Wasitora, Nekoru Queen (C17) 49 #Removal
+1 Whirlwing Stormbrood / Dynamic Soar (TDM) 322 *F* #ZZZ-Auto_tagged
+1 Wrathful Red Dragon (CLB) 585 #ZZZ-Auto_tagged
+1 Yosei, the Morning Star (IMA) 39 *F* #Removal #Stun
+1 Zenos yae Galvus / Shinryu, Transcendent Rival (FIN) 529 *F* #Sweeper
+1 Ziatora, the Incinerator (SNC) 339 #Sacrifice_Major
+1 Zurgo and Ojutai (MOM) 319 *F* #Draw #Self_Bounce

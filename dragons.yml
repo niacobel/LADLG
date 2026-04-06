@@ -27,14 +27,14 @@ secondary_tags:
   counters: riot, amplify, bloodthirst, monstrosity, dethrone
   other_counters: bolster
   draw: monarch, looter, wheel
-  graveyard: threshold, delve
-  random: die_roll
+  graveyard: threshold, delve, encore
+  random: die_roll, coin_flip
   ramp: tokens_treasure
   self_defense: hexproof, ward, protection, uncounterable
   self_discard: looter, wheel
   self_reanimate: eternalize
   soft_removal: burn, goad, freeze, bounce
-  tribal: cast_dragon, recast_dragon, reanimate_dragon
+  tribal_dragon: cast_dragon, recast_dragon, reanimate_dragon
 themes:
   Balanced:
     description: "As everything should be."
@@ -47,13 +47,12 @@ themes:
     description: "Create a bunch of creature tokens and make use of them, somehow."
     ban: sweeper
     tags:
-      mass pump, other_ETB, sacrifice_major: 7
-      tokens_creature: 18
-      draw: 3
-      tutor: 2
+      mass pump, other_ETB, sacrifice_major, convoke: 7
+      tokens_creature: 25
   Gotta Go Fast:
     description: "There's no time to be summoning sick."
     tags:
+      synergy_haste: 10
       haste, flash, riot, dash: 25
     limitations:
       limited_tags:
@@ -91,7 +90,7 @@ themes:
   Draconic Domination:
     description: "Tribal Dragon"
     tags:
-      tribal: 25
+      tribal_dragon: 25
       tokens_dragon: 25
       draw, ramp, removal: 25
   Dragons of Tarkir:
@@ -101,9 +100,9 @@ themes:
         5: 8
         6: 7
         7: 5
-    description: "Dragons from the Tarkir block only"
+    description: "Dragons from the Tarkir sets only"
     tags:
-      set_dtk, set_frf: 25
+      set_dtk, set_frf, set_tdm, set_tdc: 25
   Dragons from Dungeons:
     description: "Rolling dice and smashing faces."
     tags:

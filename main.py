@@ -101,6 +101,21 @@ def main():
   # Load the card pile
 
   card_pile = of.parse_list(card_pile_file)
+  print(card_pile)
+
+  # Define aliases (for reskins for ex)
+
+  name_aliases = {
+      "Stardrake": "Scourge of the Throne",
+  }
+
+  cleaned_card_pile = {}
+  for key, value in card_pile.items():
+      real_name = name_aliases.get(key, key) # if key is an alias, map to real; else keep
+      cleaned_card_pile[real_name] = value
+
+  card_pile.clear()
+  card_pile.update(cleaned_card_pile)
 
   # Fetch the data from scryfall if needed (using the scrython module https://github.com/NandaScott/Scrython)
 
@@ -112,8 +127,21 @@ def main():
   else:
     with open(json_file, 'r') as f:
       scryfall_data = json.load(f)
-    # If the json file does not include all the cards data, update it and then reload it
-    if any(map(lambda name: name not in [card['name'] for card in scryfall_data], [name for name in card_pile.keys()])):
+
+
+
+    # Build a set of all card names and flavor names in the JSON
+    all_names = set()
+
+    for card in scryfall_data:
+        # Always add the normal card name
+        all_names.add(card["name"])
+        # If there is a flavor_name (ex: reskins), add that too
+        if card.get("flavor_name"):
+            all_names.add(card["flavor_name"])
+
+    # If any card in card_pile is missing (by name or flavor_name), update and reload
+    if any(name not in all_names for name in card_pile.keys()):
       of.get_cards_data(card_pile,json_file)
       with open(json_file, 'r') as f:
         scryfall_data = json.load(f)
@@ -189,6 +217,8 @@ def main():
       missing_cards = f.read().splitlines()
 
     for card in missing_cards:
+      if card[0:2] == "1 ":
+        card = card[2:]
       card_pile.pop(card, None)
 
   # Load Scryfall catalogs

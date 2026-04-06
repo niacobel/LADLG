@@ -108,11 +108,32 @@ def name_shortener(name:str):
   
   short_names = []
 
-  if ", " in name:
-    short_names.append(name.split(",")[0].strip())
-  elif len(name.split(" ")) == 2:
-    for word in name.split(" "):
-      short_names.append(word)
+  # Split on commas and take the first part (e.g. "Elspeth, Knight‑Errant" → "Elspeth")
+  if "," in name:
+    first_part = name.split(",")[0].strip()
+    if first_part:
+      short_names.append(first_part)
+
+  # Handle "Firstname of the ..." / "Firstname the ..." patterns
+  # Look for the first word before " of the ", " the ", etc.
+  match = re.match(r"^([a-zA-Z]+)(?:\s+of|,?\s+the)\b", name)
+  if match:
+    first_word = match.group(1)
+    if first_word and first_word not in short_names:
+      short_names.append(first_word)
+
+  # If we still have nothing useful, fall back to:
+  # - First word only (e.g. "Ureni of the Unwritten" → "Ureni")
+  # - First two words only if they are the whole name
+  words = name.split()
+  if len(words) > 0:
+    first_word = words[0]
+    if first_word and first_word not in short_names:
+      short_names.append(first_word)
+
+  if len(words) == 2 and len(short_names) == 0:
+    # If it’s just two words (e.g. "Storm Crow"), keep both as short forms
+    short_names.extend(words)
   
   return short_names
 
@@ -154,7 +175,7 @@ def charac_tags(card:dict):
 
   # Number of colours
 
-  if "card_faces" in card and "Adventure" not in card['type_line']:
+  if "card_faces" in card and "Adventure" not in card['type_line'] and "Omen" not in card['type_line']:
     colours_front = card['card_faces'][0]['colors']
     colours_back = card['card_faces'][1]['colors']
     if len(colours_front) == 0 or len(colours_back) == 0:
@@ -255,17 +276,21 @@ def triggers_tags(card:dict,names:list,oracle_text:str):
 
   # Block
 
-  pattern = r"when(?:ever)? [^\.]* blocks?"
+  pattern = r"when(?:ever)? [^\.]* blocks?\b"
   if search_oracle(pattern,oracle_text):
     tags.append('block')
 
   # Cast and self_cast
   
   for name in names:
-    pattern = r"when(?:ever)? " + name + r"[^\.]* enters? the battlefield[\w\s]*, (?:if you cast it|if it was kicked|if its \w+ cost was paid)"
+    pattern = r"when(?:ever)? " + name + r"[^\.]* enters?\s*[\w\s]*, (?:if you cast it|if it was kicked|if its \w+ cost was paid)" # Legacy pattern (cards do not refer to themselves by name anymore)
     if search_oracle(pattern,oracle_text):
       tags.append('self_cast')
       break
+  
+  pattern = r"when(?:ever)? this creature[^\.]* enters?\s*[\w\s]*, (?:if you cast it|if it was kicked|if its \w+ cost was paid)"
+  if search_oracle(pattern,oracle_text):
+    tags.append('self_cast')
 
   pattern = r"when(?:ever)? you cast this spell"
   if search_oracle(pattern,oracle_text):
@@ -275,7 +300,7 @@ def triggers_tags(card:dict,names:list,oracle_text:str):
   if search_oracle(pattern,oracle_text):
     tags.append('cast_all')
 
-  pattern = r"when(?:ever)? you cast an? (?P<card_types>[^\.]*) spell,"
+  pattern = r"when(?:ever)? you cast an? (?P<card_types>[^\.]*) spell"
   if search_oracle(pattern,oracle_text):
     types_list = sort_captured(search_oracle(pattern,oracle_text).group("card_types"))
     for word in types_list:
@@ -289,7 +314,7 @@ def triggers_tags(card:dict,names:list,oracle_text:str):
 
   # Death
 
-  pattern1 = r"when(?:ever)? [^\.]* dies?"
+  pattern1 = r"when(?:ever)? (?![^\.]*six-sided)[^\.]* dies?" # (?![^\.]*six-sided) to avoid Uncards with six-sided die
   pattern2 = r"when(?:ever)? [^\.]*(?:opponent|dealt (?:combat )*damage)+[^\.]* dies?"
   if search_oracle(pattern1,oracle_text) and not search_oracle(pattern2,oracle_text):
     tags.append('death')  
@@ -303,26 +328,30 @@ def triggers_tags(card:dict,names:list,oracle_text:str):
   # ETB and other_ETB
 
   for name in names:
-    pattern = r"when(?:ever)? " + name + r"[^\.]* enters? the battlefield(?![^\.]*(?:if you cast it|if it was kicked|if its \w+ cost was paid))"
+    pattern = r"when(?:ever)? " + name + r"[^\.]* enters?\s*(?![^\.]*(?:if you cast it|if it was kicked|if its \w+ cost was paid))"  # Legacy pattern (cards do not refer to themselves by name anymore)
     if search_oracle(pattern,oracle_text):
       tags.append('etb')
       break
 
+  pattern = r"when(?:ever)? this creature[^\.]* enters?\s*(?![^\.]*(?:if you cast it|if it was kicked|if its \w+ cost was paid))"
+  if search_oracle(pattern,oracle_text):
+    tags.append('etb')
+
   if "etb" not in tags and "all_parts" in card:
     for part in card['all_parts']:
       if part['component'] == 'token': # For cards that create tokens with ETB
-        pattern = r"when(?:ever)? this creature[^\.]* enters? the battlefield(?![^\.]*(?:if you cast it|if it was kicked|if its \w+ cost was paid))"
+        pattern = r"when(?:ever)? this creature[^\.]* enters?\s*(?![^\.]*(?:if you cast it|if it was kicked|if its \w+ cost was paid))"
         if search_oracle(pattern,oracle_text):
           tags.append('etb')
           break
 
-  pattern = r"when(?:ever)? [^\.]*another [^\.]* enters? the battlefield(?![^\.]*(?:if you cast it|if it was kicked|if its \w+ cost was paid))"
+  pattern = r"when(?:ever)? [^\.]*another [^\.]* enters?\s*(?![^\.]*(?:if you cast it|if it was kicked|if its \w+ cost was paid))"
   if search_oracle(pattern,oracle_text):
     tags.append('other_etb')
 
   # Landfall
 
-  pattern = r"when(?:ever)? [^\.]* lands? enters? the battlefield(?! under an opponent's control)"
+  pattern = r"when(?:ever)? [^\.]* lands? enters?\s*(?! under an opponent's control)"
   if search_oracle(pattern,oracle_text):
     tags.append('landfall')
 
@@ -401,7 +430,7 @@ def effects_tags(card:dict,names:list,oracle_text:str):
   if search_oracle(pattern1,oracle_text) or search_oracle(pattern2,oracle_text):
     tags.append('burn')
 
-  pattern = r"deals? [^\.,]*damage to (?:each|target|the|that|its) (?:player|opponent|controller)"
+  pattern = r"deals? [^\\.,]*damage(?: equal to [^\\.]*)? to (?:each|target|the|that|its)(?: other)? (?:player|opponent|controller)"
   if search_oracle(pattern,oracle_text) and 'burn' not in tags:
     tags.append('faceburn')
 
@@ -415,30 +444,31 @@ def effects_tags(card:dict,names:list,oracle_text:str):
 
   patterns = []
   for name in names:
-    patterns.append(r"puts? [^\.]* counters? on (?:" + name + r"|each creature|each permanent)")
-    patterns.append(name + r" enters? the battlefield with [^\.]* counters? on it")
+    patterns.append(r"puts? [^\.]* counters? on (?:" + name + r"|this creature|each creature|each permanent)")
+    patterns.append(name + r" enters? with [^\.]* counters? on it")
     patterns.append(r"distributes? [^\.]* counters? among any number of target ")
     if any([search_oracle(pattern,oracle_text) for pattern in patterns]):
       tags.append('counters')
       break
 
-  pattern1 = r"puts? [^\.]* counters? on (?:it|each|target|another|a |that)"
+  pattern1 = r"puts? [^\.]* counters? on (?:it|each|(?:up to one(?: other)? )?target|another|a |that)"
   pattern2 = r"distributes? [^\.]* counters? among"
   if search_oracle(pattern1,oracle_text) or search_oracle(pattern2,oracle_text):
     tags.append('other_counters')
 
   # Draw
 
-  pattern1 = r"(?!opponent )draws?\s*\w*\s*cards?(?:\.| for| equal| and)"
-  pattern2 = r"(?!opponent )draws? [^\.]* then discards?" # Looter tag insted
+  pattern1 = r"(?!opponent )[dD]raws?\s*\w*\s*(\w*\s*)?cards?(?:\.| for| equal| and)"
+  pattern2 = r"(?!opponent )[dD]raws? [^\.]* then discards?" # Looter tag insted
   pattern3 = r"(?!opponent )discards? (?:your hand|their hand|any number of cards)[^\.]* (?:and|then) draws?" # Wheel tag instead
   if search_oracle(pattern1,oracle_text) and not search_oracle(pattern2,oracle_text) and not search_oracle(pattern3,oracle_text):
     tags.append('draw')
 
   # Die_roll
 
-  pattern = r"rolls? \w+ d\d+"
-  if search_oracle(pattern,oracle_text):
+  pattern1 = r"rolls? \w+ d\d+"
+  pattern2 = r"rolls? \w+ six-sided dic?e"
+  if search_oracle(pattern1,oracle_text) or search_oracle(pattern2,oracle_text):
     tags.append('die_roll')
 
   # Extra Combat
@@ -472,6 +502,10 @@ def effects_tags(card:dict,names:list,oracle_text:str):
     types_list = sort_captured(search_oracle(pattern,oracle_text).group("card_types"))
     for word in types_list:
       tags.append('reanimate_' + word)
+
+  pattern = r"return this card from your graveyard to the battlefield"
+  if search_oracle(pattern,oracle_text):
+    tags.append('self_reanimate')  
 
   for name in names:
     pattern = r"return " + name + r" from your graveyard to the battlefield"
@@ -524,6 +558,20 @@ def effects_tags(card:dict,names:list,oracle_text:str):
         for word in types_list:
           if ('tokens_' + word).lower() not in tags:
             tags.append('tokens_' + word.lower())
+
+  # Tribal
+
+  match = re.search(r'—\s*(.*)', card['type_line']) # Extraire les subtypes après le "—"
+  if match:
+    subtypes = match.group(1).split()  # ['Dragon', 'God']
+
+    for subtype in subtypes:
+
+        pattern1 = rf'(?<!non-){subtype}(?:s? you control|( permanent| creature)? cards?|( permanent| creature)? spells?)'
+        pattern2 = rf'one or more {subtype}s?'
+        
+        if search_oracle(pattern1,oracle_text) or search_oracle(pattern2,oracle_text):
+            tags.append("tribal_" + subtype.lower())
 
   # Uncounterable
 

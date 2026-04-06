@@ -55,7 +55,7 @@ def parse_list(file:str):
     cards_from_file = f.read().splitlines()
     
   # Pattern for finding lines looking like '1 Silumgar, the Drifting Death *F* #Attack #Self-Protection #Sweeper #Tribal'
-  line_pattern = re.compile(r"^\d\s(?P<name>[\w\s\-,'&\/]+)(?:\s\(\w+\))?(?:\s\*\w\*)?(?:\s+(?P<tags>#.*)$|$)")
+  line_pattern = re.compile(r"^\d\s(?P<name>[\w\s\-,'&\/]+)(?:\s\(\w+\)\s[0-9aA-zZ-]+)?(?:\s\*\w\*)?(?:\s+(?P<tags>#.*)$|$)")
 
   for line in cards_from_file:
     if line_pattern.match(line):
